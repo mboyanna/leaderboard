@@ -3,8 +3,10 @@ Leaderboard style app for gamification of interactions with results from analyti
 
 Installation
 ---
-* Install python:
-
+* If you dont have it, install python:
+```
+$ brew install python
+```
 
 * Install pip:
 ```
