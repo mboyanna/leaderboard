@@ -32,6 +32,7 @@ $ source venv/bin/activate
 ```
 
 * Clone this repository 
+
 ```
 $ git clone https://github.com/mboyanna/leaderboard.git
 ```
