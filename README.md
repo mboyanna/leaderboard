@@ -23,7 +23,7 @@ $ virtualenv venv
 $ source venv/bin/activate
 ```
 
-* Clone this repository https://github.com/mboyanna/simpletrends.git
+* Clone this repository
 ```
 $ git clone https://github.com/mboyanna/leaderboard.git
 ```
