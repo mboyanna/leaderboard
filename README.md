@@ -1,6 +1,8 @@
 
-![alt text](https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80)
-Photo by Nathan Dumlao on Unsplash
+<p align="left">
+  <img src="https://images.unsplash.com/photo-1508901532037-43b386822c81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2549&q=80" width="300" height="200" title="hover text">
+   Photo by Alexandra Andersson on Unsplash
+</p>
 
 # leaderboard
 Leaderboard style app for gamification of interactions with results from analytics reporting
