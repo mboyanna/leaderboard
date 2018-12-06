@@ -60,9 +60,12 @@ The Application mounted at '' has an empty config.
 In a different prompt try with curl
 ```
 $ curl -d '{"metricType": "brand", "metricName": "ctr","triggeringCriteria": ">", "baselineMetricVal": "DKNY", "triggeringMetricVal": "Young Fabulous and Broke"}' -H "Content-Type: application/json" -X POST http://localhost:8080/getLeaderboard
-
+```
+You should get the following response:
+```
 "{\n  \"metricType\": \"brand\",\n  \"metricName\": \"ctr\",\n  \"triggeringCriteria\": \">\",\n  \"baselineMetricVal\": \"DKNY\",\n  \"triggeringMetricVal\": \"Young Fabulous and Broke\",\n  \"triggeringTreshold\": 10,\n  \"otherMetrics\": [\n    \"ctr\",\n    \"aov\",\n    \"sales\",\n    \"attr_sales\",\n    \"items\"\n  ],\n  \"recSets\": [\n    {\n      \"value\": \"0.85\",\n      \"leaderName\": \"Adam Nielsen\"\n    },\n    {\n      \"value\": \"0.08\",\n      \"leaderName\": \"Stacy Jackson\"\n    },\n    {\n      \"value\": \"0.06\",\n      \"leaderName\": \"Trisha Firm\"\n    },\n    {\n      \"value\": \"0.06\",\n      \"leaderName\": \"Merchandiser Alan\"\n    },\n    {\n      \"value\": \"0.03\",\n      \"leaderName\": \"Marketeer Hanna\"\n    },\n    {\n      \"value\": \"0.02\",\n      \"leaderName\": \"CoffeeGuy\"\n    },\n    {\n      \"value\": \"0.02\",\n      \"leaderName\": \"Jeff Bezos\"\n    }\n  ]\n}"
 "{\"num1\":{\"mean\":2.0,\"min\":1.0,\"max\":3.0},\"num2\":{\"mean\":5.0,\"min\":4.0,\"max\":6.0}}"
-   
 ```
+   
+
 
